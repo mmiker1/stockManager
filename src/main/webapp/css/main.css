@@ -1,0 +1,70 @@
+.padding5{
+	padding: 5px 5px 5px 5px;
+}
+
+.padding3{
+	padding: 3px 3px 3px 3px;
+}
+
+.left7{
+    padding-left: 7px;	
+}
+
+.right{
+	float:right;
+}
+
+.color-red{
+	color:#DD0000;
+}
+
+.color-green{
+	color:#00DD00;
+}
+
+.border-none{
+	border:0;
+}
+
+.background-white{
+	background-color:white !important;
+}
+
+.fontsize24{
+	font-size:24px;
+}
+
+.fontsize20{
+	font-size:20px !important;
+}
+.fontsize16{
+	font-size:16px !important;
+}
+
+.minheight15{
+	min-height:15px;
+}
+
+.minheight35{
+	min-height:35px;
+}
+
+.minheight80{
+	min-height:80px;
+}
+
+.minheight240{
+	min-height:240px;
+}
+.cursorPointer{
+	cursor:pointer;
+}
+
+.div-border{
+	border: 1px solid #666666;
+}
+
+.opacity100{
+	opacity: 1.0;
+    filter: alpha(opacity=100);
+}
