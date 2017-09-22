@@ -24,7 +24,7 @@ public class BatchSyncTask extends Thread {
 	
     public void run() {
 		
-		logger.info("task start. ");
+		//logger.info("task start. ");
 		
 		List<PortfolioItem> pitemList = generalDao.getPortfolioItemList();
 		List<String> symbList = new ArrayList<String>();
@@ -37,7 +37,9 @@ public class BatchSyncTask extends Thread {
 		
 		    for(PortfolioItem pitem : pitemList){
 			    StockItem stockItem = stockItems.get(pitem.getSymbol());
+			    //logger.info(pitem.getId() + " " + stockItem.getPrice() + " " + stockItem.getChange());
 			    generalDao.updatePortfolioItem(pitem.getId(), stockItem.getPrice(), stockItem.getChange());
+			    
 		    }
 		}
 		

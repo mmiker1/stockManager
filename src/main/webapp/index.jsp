@@ -60,6 +60,7 @@
 	    <div class="col-md-8 col-md-offset-1" >
 	       <H5>Portfolio items prices are refreshing in a real time every 5 seconds. Source - Yahoo Finance.</H5>
 	       
+	       
 	    </div>
 	</div>
 	<div class="row">
