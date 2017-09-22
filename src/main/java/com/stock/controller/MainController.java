@@ -82,6 +82,17 @@ public class MainController {
 		return jsonOut.toString();
 	}
 	
+	@RequestMapping(value = "api/myPortfolio", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
+	@ResponseBody
+	public String getPortfolioItemsJSON(
+			HttpServletRequest request, 
+    		HttpServletResponse response
+			){
+		JSONArray jsonOut = new JSONArray(generalDao.getPortfolioItemList());
+		//logger.info(jsonOut.toString());
+		return jsonOut.toString();
+	}
+	
 	
 	@RequestMapping(value = "getPortfolioItems.ajax", method = RequestMethod.POST, produces = "text/plain;charset=UTF-8")
 	@ResponseBody
