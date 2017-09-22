@@ -25,10 +25,14 @@
     
     <div class="row">
 		<div class="col-md-8 col-md-offset-1" >
-		<H3>Portfolio Stock Manager</H3>
+		<H3>Personal Portfolio Stock Manager</H3>
 		</div>
 	</div>
-	
+	<div class="row">
+	    <div class="col-md-8 col-md-offset-1" >
+	       <H5>(try symbols AA, POT, AABA, AIG and etc...). 10 symbols limit.</H5>
+	    </div>
+	</div>
 	<div class="row">
 		<div class="col-md-2 col-md-offset-1 minheight35" >
 		   <div class="input-group">
@@ -52,7 +56,11 @@
 		   
 		</div>
 	</div>
-	
+	<div class="row">
+	    <div class="col-md-8 col-md-offset-1" >
+	       <H5>Portfolio items prices are refreshing in a real time every 5 seconds. Source - Yahoo Finance.</H5>
+	    </div>
+	</div>
 	<div class="row">
 	    <div class="col-md-6 col-md-offset-1 minheight240 fontsize16 div-border" id="stockPortfolio">
 		    
