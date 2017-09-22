@@ -13,15 +13,15 @@ http://localhost:8080/stockManager/
 
 **Technology used**
 
->Java Spring
->Spring Batch
->Spring Webservices
->HSQL EMBEDDED DATABASE
->Yahoo Finance API
->HTML
->JQUERY
->BOOTSTRAP CSS
->MAVEN
+- Java Spring
+- Spring Batch
+- Spring Webservices
+- HSQL EMBEDDED DATABASE
+- Yahoo Finance API
+- HTML
+- JQUERY
+- BOOTSTRAP CSS
+- MAVEN
 
 
 
